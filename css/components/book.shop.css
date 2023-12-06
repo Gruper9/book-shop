@@ -1,0 +1,55 @@
+.shop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 50%vw;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    border: 1px solid #313131;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.book img {
+    width: 100px;
+}
+
+.delete-btn {
+    all: unset;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.book-btn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    gap: 25px;
+}
+
+.book-btn button {
+    background-color: #ffffff;
+    border: 1px solid #313131;
+    border-radius: 10px;
+    padding: 2px 8px 2px;
+    cursor: pointer;
+}
+
+.book-btn button:hover {
+    background-color: #313131;
+    color: #ffffff;
+}
+
+.price {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

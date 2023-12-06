@@ -1,0 +1,28 @@
+.modal {
+    width: 30vw;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #313131;
+    position: absolute;
+    right: 0vw;
+    transition: right 0.5s;
+    text-align: center;
+}
+
+.close {
+    right: -30vw;
+}
+
+.modal button {
+    all: unset;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    margin-left: 80%;
+}
+
+.modal button:hover {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    border-color: #1c1c1c;
+}

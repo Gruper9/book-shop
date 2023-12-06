@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+main{
+    margin-top: 20px;
+}
