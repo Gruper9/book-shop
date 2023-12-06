@@ -17,7 +17,7 @@ function renderBooks() {
         `<div class="book">
     <img src="img/book.jpeg">
     <h2 class="book-name">${book.name}</h2>
-    <span class="price">price:${book.price}</span>
+    <span class="price">price:${book.price}$</span>
     <button class="delete-btn"onclick="onDeleteBook('${book.id}')">x</button>
     <div class="book-btn">
     <button onclick="onSetPrice('${book.id}')">Update</button>
