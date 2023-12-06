@@ -15,7 +15,7 @@ function renderBooks() {
     var books = bookService.getBooks()
     const strHtml = books.map(book =>
         `<div class="book">
-    <img src="/img/book.jpeg">
+    <img src="img/book.jpeg">
     <h2 class="book-name">${book.name}</h2>
     <span class="price">price:${book.price}</span>
     <button class="delete-btn"onclick="onDeleteBook('${book.id}')">x</button>
